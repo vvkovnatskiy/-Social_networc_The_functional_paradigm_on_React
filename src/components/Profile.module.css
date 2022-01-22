@@ -1,0 +1,25 @@
+
+.content {
+  grid-area: content;
+  background-color: #7fdab4;
+}
+
+.img_container {
+  overflow: hidden;
+  height: 30%;
+  margin-bottom: 10px;
+}
+
+.img_content {
+  width:100%;
+}
+
+.logo_container {
+  overflow: hidden;
+  height: 12vh;
+  width: 12vh;
+}
+
+.logo {
+  height: 100%;
+}
