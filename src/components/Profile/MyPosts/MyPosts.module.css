@@ -1,0 +1,9 @@
+.logo_container {
+  overflow: hidden;
+  height: 8vh;
+  width: 8vh;
+}
+
+.logo {
+  height: 100%;
+}
