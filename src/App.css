@@ -8,8 +8,6 @@
   grid-template-columns:2fr 10fr;
   background-color:#FBEEC1;
   width:80vw;
-  height:100vh;
-  margin: 0 auto;
-  padding: 10px;
-  box-sizing: border-box;
+  margin:0 auto;
 }
+

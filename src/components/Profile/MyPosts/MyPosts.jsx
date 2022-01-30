@@ -13,7 +13,7 @@ const MyPosts = () => {
         <button>Add post</button>
         <button>Remove</button>
       </div>
-      <div>
+      <div className={s.posts}>
         <Post/>
         <Post/>
         <Post/>

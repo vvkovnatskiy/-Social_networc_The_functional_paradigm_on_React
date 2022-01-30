@@ -2,16 +2,35 @@
 .content {
   grid-area: content;
   background-color: #7fdab4;
-  overflow: auto;
+  height: 100%;
 }
 
 .img_container {
   overflow: hidden;
-  height: 30%;
-  margin-bottom: 10px;
+  height: 25vh;
+  margin-bottom: 20px;
+  position: relative;
 }
 
 .img_content {
+  display: block;
   width:100%;
+  position: absolute;
+  
+  animation-name: uad;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes uad{
+  0%{
+    top: -100px
+  }
+  50%{
+    top: -50px;
+  }
+  100%{
+    top: -100px
+  }
 }
 
