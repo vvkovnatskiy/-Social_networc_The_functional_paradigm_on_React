@@ -1,8 +1,23 @@
 .item {
-  color: blue;
+  color: #5c858b;
+  border-top: 2px dotted #944018;
+  border-bottom: 2px dotted #944018;
 }
 
 .item img {
   width: 50px;
   border-radius: 20px;
+}
+
+.privateInfo > div{
+  color: #3e5f64;
+  display: inline-block;
+}
+
+.privateInfo {
+  margin-bottom: 5px;
+}
+
+p {
+  margin: 0;
 }

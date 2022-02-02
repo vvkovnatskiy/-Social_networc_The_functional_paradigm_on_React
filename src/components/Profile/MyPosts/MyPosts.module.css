@@ -12,3 +12,7 @@
   height: 50vh;
   overflow: auto;
 }
+
+.myPost{
+  border-bottom: 2px dotted #944018;
+}
