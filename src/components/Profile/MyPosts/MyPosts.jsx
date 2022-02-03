@@ -1,12 +1,12 @@
-import s from './MyPosts.module.css';
+import style from './MyPosts.module.css';
 import Post from './Post/Post';
 
 const MyPosts = () => {
   return (
     <div>
-      <div className={s.myPost}>
-        <div className={s.logo_container}>
-          <img className={s.logo} src='http://filestack.itcraftlab.com/wp-content/uploads/2018/05/Kitten-min.png' />
+      <div className={style.myPost}>
+        <div className={style.logo_container}>
+          <img className={style.logo} src='http://filestack.itcraftlab.com/wp-content/uploads/2018/05/Kitten-min.png' />
         </div>
         My Posts
         <div>
@@ -15,7 +15,7 @@ const MyPosts = () => {
           <button>Remove</button>
         </div>
       </div>
-      <div className={s.posts}>
+      <div className={style.posts}>
         <Post nickName='Ivan' message='Hi, how are you?' nOfL='15'/>
         <Post nickName='Huan' message='Hi, I am fun. And you?' nOfL='12'/>
         <Post nickName='Sergio' message='...something' nOfL='9'/>

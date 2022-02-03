@@ -1,10 +1,4 @@
 
-.content {
-  grid-area: content;
-  background-color: #7fdab4;
-  height: 100%;
-}
-
 .img_container {
   overflow: hidden;
   height: 25vh;
