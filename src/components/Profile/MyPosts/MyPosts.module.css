@@ -9,8 +9,8 @@
 }
 
 .posts {
-  height: 50vh;
-  overflow: auto;
+  /* height: 40vh;
+  overflow: auto; */
 }
 
 .myPost{

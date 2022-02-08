@@ -16,13 +16,12 @@ const MyPosts = () => {
         </div>
       </div>
       <div className={style.posts}>
-        <Post nickName='Ivan' message='Hi, how are you?' nOfL='15'/>
-        <Post nickName='Huan' message='Hi, I am fun. And you?' nOfL='12'/>
-        <Post nickName='Sergio' message='...something' nOfL='9'/>
-        <Post nickName='Vladlen' message='...something' nOfL='23'/>
-        <Post nickName='Oleg' message='...something' nOfL='19'/>
-        <Post nickName='Jon' message='...something' nOfL='15'/>
-        <Post nickName='Jesus' message='...something' nOfL='15'/>
+        <Post nickName='Ivan' message='Hi, how are you?' nOfL='15' />
+        <Post nickName='Huan' message='Hi, I am fun. And you?' nOfL='12' />
+        <Post nickName='Sergio' message='...something' nOfL='9' />
+        <Post nickName='Vladlen' message='...something' nOfL='23' />
+        <Post nickName='Oleg' message='...something' nOfL='19' />
+        <Post nickName='Jon' message='...something' nOfL='15' />
       </div>
     </div>
   );
