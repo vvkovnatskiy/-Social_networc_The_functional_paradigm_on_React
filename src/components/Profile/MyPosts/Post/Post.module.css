@@ -2,6 +2,10 @@
   color: #5c858b;
   border-top: 2px dotted #944018;
   border-bottom: 2px dotted #944018;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .item img {
@@ -16,8 +20,13 @@
 
 .privateInfo {
   margin-bottom: 5px;
+  margin-right: 10px;
 }
 
 p {
   margin: 0;
+}
+.left_block{
+  display: flex;
+  align-items: center;
 }

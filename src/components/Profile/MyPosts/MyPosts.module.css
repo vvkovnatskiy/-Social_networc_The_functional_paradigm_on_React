@@ -8,10 +8,10 @@
   height: 100%;
 }
 
-.posts {
-  /* height: 40vh;
-  overflow: auto; */
-}
+/* .posts {
+  height: 40vh;
+  overflow: auto; 
+} */
 
 .myPost{
   border-bottom: 2px dotted #944018;

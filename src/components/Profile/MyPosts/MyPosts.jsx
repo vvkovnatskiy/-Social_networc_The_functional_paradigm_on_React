@@ -1,12 +1,13 @@
 import style from './MyPosts.module.css';
 import Post from './Post/Post';
+import logo from './Kitten-min.png';
 
 const MyPosts = () => {
   return (
     <div>
       <div className={style.myPost}>
         <div className={style.logo_container}>
-          <img className={style.logo} src='http://filestack.itcraftlab.com/wp-content/uploads/2018/05/Kitten-min.png' />
+          <img className={style.logo} src={logo} alt='logo' />
         </div>
         My Posts
         <div>
