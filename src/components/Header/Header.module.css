@@ -8,9 +8,9 @@
 .logo{
   height:85%;
   margin: 5px;
-  animation: logo_spin infinite 10s linear;
+  animation: logoSpin infinite 10s linear;
 }
-@keyframes logo_spin
+@keyframes logoSpin
  {
   from {
     transform: rotate(0deg);

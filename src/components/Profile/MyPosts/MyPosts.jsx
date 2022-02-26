@@ -6,7 +6,7 @@ const MyPosts = () => {
   return (
     <div>
       <div className={style.myPost}>
-        <div className={style.logo_container}>
+        <div className={style.logoContainer}>
           <img className={style.logo} src={logo} alt='logo' />
         </div>
         My Posts

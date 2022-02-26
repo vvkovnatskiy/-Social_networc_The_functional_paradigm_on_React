@@ -1,12 +1,12 @@
 
-.img_container {
+.imgContainer {
   overflow: hidden;
   height: 25vh;
   margin-bottom: 20px;
   position: relative;
 }
 
-.img_content {
+.imgContent {
   display: block;
   /* width:100%; */
   height: 90vh;
