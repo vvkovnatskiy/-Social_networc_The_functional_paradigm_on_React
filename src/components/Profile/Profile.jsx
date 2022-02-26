@@ -1,12 +1,11 @@
 import MyPosts from './MyPosts/MyPosts';
-import style from './Profile.module.css';
+// import style from './Profile.module.css';
+import ProfileInfo from './ProfileInfo/ProfileInfo';
 
 const Profile = () => {
   return (
     <div>
-      <div className={style.imgContainer}>
-        <img className={style.imgContent} src='https://p.bigstockphoto.com/GeFvQkBbSLaMdpKXF1Zv_bigstock-Aerial-View-Of-Blue-Lakes-And--227291596.jpg' alt='panorama' />
-      </div>
+      <ProfileInfo />
       <MyPosts />
     </div>
   );

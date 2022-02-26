@@ -2,7 +2,7 @@ import './App.css';
 import Header from './components/Header/Header';
 import Navbar from './components/Navbar/Navbar';
 import Profile from './components/Profile/Profile';
-import Dialog from './components/Dialog/Dialog';
+import Dialog from './components/Dialogs/Dialogs';
 import News from './components/News/News';
 import Music from './components/Music/Music';
 import Settings from './components/Settings/Settings';
@@ -17,7 +17,7 @@ const App = () => {
         <div className="app_wrapper_content">
           <Routes>
             <Route path='/profile' element={<Profile />} />
-            <Route path='/dialog' element={<Dialog />} />
+            <Route path='/dialogs/*' element={<Dialog />} />
             <Route path='/news' element={<News />} />
             <Route path='/music' element={<Music />} />
             <Route path='/settings' element={<Settings />} />

@@ -12,8 +12,9 @@ const MyPosts = () => {
         My Posts
         <div>
           <textarea></textarea>
-          <button>Add post</button>
-          <button>Remove</button>
+          <div>
+            <button>Add post</button>
+          </div>
         </div>
       </div>
       <div className={style.posts}>
