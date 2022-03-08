@@ -16,7 +16,7 @@ const Post = (props) => {
         </div>
       </div>
       <div className={style.like_post}>
-        <button>Like</button><span>: {props.nOfL}</span>
+        <button>Like</button><span>: {props.likesCount}</span>
       </div>
     </div>
   );

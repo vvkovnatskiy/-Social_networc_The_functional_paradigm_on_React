@@ -23,4 +23,5 @@
 
 .dialog a[class='active']{
   color: gold;
+  text-shadow: 2px 2px #5c858b;
 }
